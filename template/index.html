@@ -11,7 +11,12 @@
         <label for="imageUpload" class="upload-label">
             Choose...
         </label>
-        <input type="file" name="files" id="imageUpload" onchange="loadfile(event)" accept=".png, .jpg, .jpeg">
+        <input type="file" name="files" id="imageUpload" onchange="loadfile(event)" accept=".png, .jpg, .jpeg"><br>
+        
+        Select : <input type="radio" name="select_plant" id="fruit" value="fruit">
+        <label for="fruit">Fruit</label>
+        <input type="radio" name="select_plant" id="veg" value="vegetable">
+        <label for="veg">Vegetable</label> <br>
         <button type="submit">proceed</button><br>
         <img id="output">
     </form>
